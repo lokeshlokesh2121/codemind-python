@@ -1,0 +1,5 @@
+n=int(input())
+a=list(map(int,input().split()))
+b=sum(a)
+if b%2==0:print(1)
+else:print(0)
